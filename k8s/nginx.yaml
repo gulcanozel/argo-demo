@@ -11,6 +11,8 @@ spec:
     metadata:
       labels:
         app: nginx-demo
+      annotations:
+        rollout: "v2"
     spec:
       containers:
       - name: nginx
